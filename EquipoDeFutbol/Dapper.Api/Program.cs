@@ -20,6 +20,9 @@ builder.Services.AddAutoMapper(config => config.AddDataReaderMapping(), typeof(C
 builder.Services.AddScoped<IEquipoCasoDeUso, EquipoCasoDeUso>();
 builder.Services.AddScoped<IRepositorioEquipo, RepositorioEquipo>();
 
+builder.Services.AddScoped<IEntrenadorCasoDeUso, EntrenadorCasoDeUso>();
+builder.Services.AddScoped<IRepositorioEntrenador, RepositorioEntrenador>();
+
 
 builder.Services.AddTransient<IDbConnectionBuilder>(e =>
 {
