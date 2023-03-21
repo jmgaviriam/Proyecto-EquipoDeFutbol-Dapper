@@ -23,6 +23,9 @@ builder.Services.AddScoped<IRepositorioEquipo, RepositorioEquipo>();
 builder.Services.AddScoped<IEntrenadorCasoDeUso, EntrenadorCasoDeUso>();
 builder.Services.AddScoped<IRepositorioEntrenador, RepositorioEntrenador>();
 
+builder.Services.AddScoped<IJugadorCasoDeUso, JugadorCasoDeUso>();
+builder.Services.AddScoped<IRepositorioJugador, RepositorioJugador>();
+
 
 builder.Services.AddTransient<IDbConnectionBuilder>(e =>
 {
