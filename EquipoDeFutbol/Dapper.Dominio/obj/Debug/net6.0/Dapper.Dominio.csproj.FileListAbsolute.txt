@@ -1,0 +1,12 @@
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\bin\Debug\net6.0\Dapper.Dominio.deps.json
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\bin\Debug\net6.0\Dapper.Dominio.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\bin\Debug\net6.0\Dapper.Dominio.pdb
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\obj\Debug\net6.0\Dapper.Dominio.csproj.AssemblyReference.cache
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\obj\Debug\net6.0\Dapper.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\obj\Debug\net6.0\Dapper.Dominio.AssemblyInfoInputs.cache
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\obj\Debug\net6.0\Dapper.Dominio.AssemblyInfo.cs
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\obj\Debug\net6.0\Dapper.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\obj\Debug\net6.0\Dapper.Dominio.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\obj\Debug\net6.0\refint\Dapper.Dominio.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\obj\Debug\net6.0\Dapper.Dominio.pdb
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Dominio\obj\Debug\net6.0\ref\Dapper.Dominio.dll

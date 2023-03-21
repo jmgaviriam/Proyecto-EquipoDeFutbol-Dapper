@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Dapper.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Dapper.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dapper.Dominio.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dapper.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Dapper.Dominio/Dapper.Dominio.csproj",
+      "msbuildProject": "../Dapper.Dominio/Dapper.Dominio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Dapper.Dominio >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\57318\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\57318\\Desktop\\Liga Sofka\\DDD-BD-Dapper-PruebasUnitarias\\Semana8\\Proyecto-EquipoDeFutbol-Dapper\\EquipoDeFutbol\\Dapper.Dominio\\Dapper.Dominio.csproj": {
+              "projectPath": "C:\\Users\\57318\\Desktop\\Liga Sofka\\DDD-BD-Dapper-PruebasUnitarias\\Semana8\\Proyecto-EquipoDeFutbol-Dapper\\EquipoDeFutbol\\Dapper.Dominio\\Dapper.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
