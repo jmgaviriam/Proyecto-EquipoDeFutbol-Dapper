@@ -52,3 +52,32 @@ CREATE TABLE Entrenador (
     CONSTRAINT FK_Entrenador_Equipo FOREIGN KEY (EquipoID) REFERENCES Equipo(ID)
 );
 GO
+```
+Se incluyen los datos iniciales 
+```SQL
+USE EquipoFutbolDB;
+
+-- Insertar valores en la tabla Equipo
+INSERT INTO Equipo (ID, NombreEquipo, Ciudad) VALUES
+(1, 'Barcelona', 'Barcelona'),
+(2, 'Real Madrid', 'Madrid'),
+(3, 'Manchester United', 'Manchester'),
+(4, 'Bayern Munich', 'Munich'),
+(5, 'Paris Saint-Germain', 'Paris');
+
+-- Insertar valores en la tabla Jugador
+INSERT INTO Jugador (ID, Nombre, Apellido, Edad, Posicion, NumeroCamiseta, EquipoID) VALUES
+(1, 'Lionel', 'Messi', 34, 'Delantero', 10, 1),
+(2, 'Cristiano', 'Ronaldo', 37, 'Delantero', 7, 2),
+(3, 'Paul', 'Pogba', 28, 'Centrocampista', 6, 3),
+(4, 'Robert', 'Lewandowski', 33, 'Delantero', 9, 4),
+(5, 'Kylian', 'Mbappé', 23, 'Delantero', 7, 5);
+
+-- Insertar valores en la tabla Entrenador
+INSERT INTO Entrenador (ID, Nombre, Apellido, Edad, Pais, EquipoID) VALUES
+(1, 'Ronald', 'Koeman', 58, 'Holanda', 1),
+(2, 'Carlo', 'Ancelotti', 62, 'Italia', 2),
+(3, 'Ole Gunnar', 'Solskjær', 48, 'Noruega', 3),
+(4, 'Julian', 'Nagelsmann', 33, 'Alemania', 4),
+(5, 'Mauricio', 'Pochettino', 49, 'Argentina', 5);
+```
