@@ -44,6 +44,7 @@ namespace Dapper.Infraestructura
 
         }
 
+
         public async Task<Equipo> ObtenerEquipoPorIdAsync(int id)
         {
             var connection = await _dbConnectionBuilder.CreateConnectionAsync();
@@ -52,5 +53,36 @@ namespace Dapper.Infraestructura
             connection.Close();
             return resultado;
         }
+
+        public async Task<EquipoCompleto> ObtenerEquipoCompletoPorIdAsync(int id)
+        {
+            var connection = await _dbConnectionBuilder.CreateConnectionAsync();
+            var equipoQuery = $"SELECT * FROM {nombreTabla} WHERE Id = @id";
+            var entrenadorQuery = $"SELECT * FROM Entrenador WHERE EquipoID = @id";
+            var jugadoresQuery = $"SELECT * FROM Jugador WHERE EquipoID = @id";
+            var multiQuery = $"{equipoQuery};{entrenadorQuery};{jugadoresQuery}";
+
+            using (var multi = await connection.QueryMultipleAsync(multiQuery, new { id }))
+            {
+                var equipo = await multi.ReadFirstOrDefaultAsync<Equipo>();
+                if (equipo == null)
+                {
+                    return null;
+                }
+
+                var entrenador = await multi.ReadFirstOrDefaultAsync<Entrenador>();
+                var jugadores = (await multi.ReadAsync<Jugador>()).ToList();
+
+                return new EquipoCompleto
+                {
+                    Id = equipo.Id,
+                    NombreEquipo = equipo.NombreEquipo,
+                    Ciudad = equipo.Ciudad,
+                    Entrenador = entrenador,
+                    Jugadores = jugadores
+                };
+            }
+        }
+
     }
 }

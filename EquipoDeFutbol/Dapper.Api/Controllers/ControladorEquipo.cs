@@ -31,6 +31,13 @@ namespace Dapper.Api.Controllers
             return await _equipoCasoDeUso.ObtenerEquipoPorId(id);
         }
 
+        [HttpGet("equipoCompleto/{id}")]
+        public async Task<EquipoCompleto> ObtenerEquipoCompletoPorId(int id)
+        {
+            return await _equipoCasoDeUso.ObtenerEquipoCompletoPorId(id);
+        }
+
+
         [HttpPost]
         public async Task<AgregarEquipo> AgregarEquipo([FromBody] AgregarEquipo equipo)
         {

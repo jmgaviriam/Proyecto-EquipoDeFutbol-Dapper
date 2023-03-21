@@ -13,5 +13,6 @@ namespace Dapper.CasoDeUso.ViasDeAcceso.Repositorio
         Task<AgregarEquipo> AgregarEquipoAsync(AgregarEquipo equipo);
         Task<List<Equipo>> ObtenerListaDeEquiposAsync();
         Task<Equipo> ObtenerEquipoPorIdAsync(int id);
+        Task<EquipoCompleto> ObtenerEquipoCompletoPorIdAsync(int id);
     }
 }

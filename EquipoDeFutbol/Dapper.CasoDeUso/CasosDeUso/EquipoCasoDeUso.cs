@@ -28,9 +28,15 @@ namespace Dapper.CasoDeUso.CasosDeUso
             return await _repositorioEquipo.ObtenerListaDeEquiposAsync();
         }
 
+        public async Task<EquipoCompleto> ObtenerEquipoCompletoPorId(int id)
+        {
+            return await _repositorioEquipo.ObtenerEquipoCompletoPorIdAsync(id);
+        }
+
         public async Task<Equipo> ObtenerEquipoPorId(int id)
         {
             return await _repositorioEquipo.ObtenerEquipoPorIdAsync(id);
         }
+
     }
 }

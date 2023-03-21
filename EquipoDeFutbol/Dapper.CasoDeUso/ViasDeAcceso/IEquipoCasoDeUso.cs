@@ -14,5 +14,6 @@ namespace Dapper.CasoDeUso.ViasDeAcceso
 
         Task<List<Equipo>> ObtenerListaDeEquipos();
         Task<Equipo> ObtenerEquipoPorId(int id);
+        Task<EquipoCompleto> ObtenerEquipoCompletoPorId(int id);
     }
 }
