@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Dapper.CasoDeUso/1.0.0": {
+        "dependencies": {
+          "Dapper.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "Dapper.CasoDeUso.dll": {}
+        }
+      },
+      "Dapper.Dominio/1.0.0": {
+        "runtime": {
+          "Dapper.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dapper.CasoDeUso/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

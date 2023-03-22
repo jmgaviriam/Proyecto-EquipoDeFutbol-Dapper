@@ -1,0 +1,17 @@
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\obj\Debug\net6.0\Dapper.Infraestructura.csproj.AssemblyReference.cache
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\obj\Debug\net6.0\Dapper.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\obj\Debug\net6.0\Dapper.Infraestructura.AssemblyInfoInputs.cache
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\obj\Debug\net6.0\Dapper.Infraestructura.AssemblyInfo.cs
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\obj\Debug\net6.0\Dapper.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\bin\Debug\net6.0\Dapper.Infraestructura.deps.json
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\bin\Debug\net6.0\Dapper.Infraestructura.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\bin\Debug\net6.0\Dapper.Infraestructura.pdb
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\bin\Debug\net6.0\Dapper.CasoDeUso.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\bin\Debug\net6.0\Dapper.Dominio.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\bin\Debug\net6.0\Dapper.CasoDeUso.pdb
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\bin\Debug\net6.0\Dapper.Dominio.pdb
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\obj\Debug\net6.0\Dapper.Infraestructura.csproj.CopyComplete
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\obj\Debug\net6.0\Dapper.Infraestructura.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\obj\Debug\net6.0\refint\Dapper.Infraestructura.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\obj\Debug\net6.0\Dapper.Infraestructura.pdb
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Infraestructura\obj\Debug\net6.0\ref\Dapper.Infraestructura.dll
