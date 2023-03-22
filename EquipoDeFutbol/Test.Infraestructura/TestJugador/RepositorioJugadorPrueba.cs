@@ -92,8 +92,6 @@ namespace Test.Infraestructura.TestJugador
         }
 
 
-        //implementar el [Fact] para el metodo ObtenerJugadorPorIdAsync
-
 
         [Fact]
         public async Task ObtenerJugadorPorIdAsync()
