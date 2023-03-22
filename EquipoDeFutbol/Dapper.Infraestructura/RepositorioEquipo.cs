@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ardalis.GuardClauses;
 using Dapper.CasoDeUso.ViasDeAcceso.Repositorio;
 using Dapper.Dominio.Comandos;
 using Dapper.Dominio.Entidades;
@@ -22,6 +23,9 @@ namespace Dapper.Infraestructura
 
         public async Task<AgregarEquipo> AgregarEquipoAsync(AgregarEquipo equipo)
         {
+            Guard.Against.Null(equipo, nameof(equipo));
+            Guard.Against.NullOrWhiteSpace(equipo.NombreEquipo, nameof(equipo.NombreEquipo));
+            Guard.Against.NullOrWhiteSpace(equipo.Ciudad, nameof(equipo.Ciudad));
             var connection = await _dbConnectionBuilder.CreateConnectionAsync();
             var agregarEquipo = new
             {
@@ -37,6 +41,8 @@ namespace Dapper.Infraestructura
         public async Task<List<Equipo>> ObtenerListaDeEquiposAsync()
         {
             var connection = await _dbConnectionBuilder.CreateConnectionAsync();
+            Guard.Against.Null(connection, nameof(connection));
+
             string sqlQuery = $"SELECT * FROM {nombreTabla}";
             var resultado = await connection.QueryAsync<Equipo>(sqlQuery);
             connection.Close();
@@ -47,7 +53,11 @@ namespace Dapper.Infraestructura
 
         public async Task<Equipo> ObtenerEquipoPorIdAsync(int id)
         {
+
+            Guard.Against.NegativeOrZero(id, nameof(id));
             var connection = await _dbConnectionBuilder.CreateConnectionAsync();
+            Guard.Against.Null(connection, nameof(connection));
+
             string sqlQuery = $"SELECT * FROM {nombreTabla} WHERE Id = @id";
             var resultado = await connection.QueryFirstOrDefaultAsync<Equipo>(sqlQuery, new { id });
             connection.Close();
@@ -65,10 +75,7 @@ namespace Dapper.Infraestructura
             using (var multi = await connection.QueryMultipleAsync(multiQuery, new { id }))
             {
                 var equipo = await multi.ReadFirstOrDefaultAsync<Equipo>();
-                if (equipo == null)
-                {
-                    return null;
-                }
+                Guard.Against.Null(equipo, nameof(equipo));
 
                 var entrenador = await multi.ReadFirstOrDefaultAsync<Entrenador>();
                 var jugadores = (await multi.ReadAsync<Jugador>()).ToList();

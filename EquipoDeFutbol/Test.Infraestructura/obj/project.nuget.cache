@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hIJaz6OUDXWXBJySgRerw5U5BYbi+nnXinfiffZrVNRkdmC02tEeAdeEWXNeKNHt7qXZoG6+b9mobLzg7874XQ==",
+  "dgSpecHash": "pvmfSxmW3LiYmwzbhdU0T7xVxA1K3QgkTvHpMoUhWX3yDtSeulUAifcpZdPwTTvjtUts3haFRrbiFdOXSEtfZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\57318\\Desktop\\Liga Sofka\\DDD-BD-Dapper-PruebasUnitarias\\Semana8\\Proyecto-EquipoDeFutbol-Dapper\\EquipoDeFutbol\\Test.Infraestructura\\Test.Infraestructura.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\57318\\.nuget\\packages\\ardalis.guardclauses\\4.0.1\\ardalis.guardclauses.4.0.1.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\ardalis.specification\\6.1.0\\ardalis.specification.6.1.0.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
@@ -13,6 +14,7 @@
     "C:\\Users\\57318\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\57318\\.nuget\\packages\\jetbrains.annotations\\2021.3.0\\jetbrains.annotations.2021.3.0.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

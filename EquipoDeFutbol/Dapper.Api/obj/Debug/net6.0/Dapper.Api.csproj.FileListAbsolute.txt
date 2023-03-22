@@ -76,3 +76,6 @@ C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyect
 C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Api\obj\Debug\net6.0\Dapper.Api.pdb
 C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Api\obj\Debug\net6.0\Dapper.Api.genruntimeconfig.cache
 C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Api\obj\Debug\net6.0\ref\Dapper.Api.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Api\bin\Debug\net6.0\Ardalis.GuardClauses.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Api\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\57318\Desktop\Liga Sofka\DDD-BD-Dapper-PruebasUnitarias\Semana8\Proyecto-EquipoDeFutbol-Dapper\EquipoDeFutbol\Dapper.Api\obj\Debug\net6.0\Dapper.Api.MvcApplicationPartsAssemblyInfo.cs

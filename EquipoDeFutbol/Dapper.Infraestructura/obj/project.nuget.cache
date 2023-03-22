@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Kz/Y3xfAk0Rd6SerQoysxFsjSnrt0tm8GdKHwoE32ux/cXG2E8jHT2kXtMw7Qw5aMvK0IGyqgJPu2VB4+DKDQA==",
+  "dgSpecHash": "aZ1/9QTzJp1ANjZTEYdnaIObd92xGHaNm9L4Ef28W8GOEgznznOpzLoZnbl7O++HomnKiCNbqYALiXurBD/xsQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\57318\\Desktop\\Liga Sofka\\DDD-BD-Dapper-PruebasUnitarias\\Semana8\\Proyecto-EquipoDeFutbol-Dapper\\EquipoDeFutbol\\Dapper.Infraestructura\\Dapper.Infraestructura.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\57318\\.nuget\\packages\\ardalis.guardclauses\\4.0.1\\ardalis.guardclauses.4.0.1.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\57318\\.nuget\\packages\\jetbrains.annotations\\2021.3.0\\jetbrains.annotations.2021.3.0.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\57318\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.0\\microsoft.data.sqlclient.5.1.0.nupkg.sha512",
