@@ -30,12 +30,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="TestEntrenador\Constructores\" />
-		<Folder Include="TestEquipo\Constructores\" />
-		<Folder Include="TestJugador\Constructores\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <ProjectReference Include="..\Dapper.CasoDeUso\Dapper.CasoDeUso.csproj" />
 	  <ProjectReference Include="..\Dapper.Infraestructura\Dapper.Infraestructura.csproj" />
 	</ItemGroup>
